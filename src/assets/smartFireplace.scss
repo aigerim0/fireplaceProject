@@ -1,0 +1,49 @@
+.smartFireplace{
+  background: #1d1d1c;
+  &__content{
+    padding-top: 170px;
+
+  }
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+  &__title{
+    width: 770px;
+    height: 55px;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+margin: 0 auto ;
+    background: linear-gradient(247.29deg, #FFFFFF 35.25%, rgba(255, 255, 255, 0) 104.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  &__description{
+    width: 644px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+   text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  &__marginSpam{
+    height: 32px;
+  }
+}

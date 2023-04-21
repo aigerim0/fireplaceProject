@@ -1,0 +1,56 @@
+.tasks {
+  background: #1d1d1c;
+  &__content {
+    padding-top: 130px;
+  }
+
+  &__first-title {
+    width: 100%;
+    height: 55px;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    background: linear-gradient(249.07deg, #FFFFFF 36.17%, rgba(255, 255, 255, 0) 97.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+  }
+
+  &__second-title {
+    width: 100%;
+    height: 130px;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin: 90px 0 50px;
+    background: linear-gradient(239.18deg, #FFFFFF 25.25%, rgba(255, 255, 255, 0.07) 95.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 42px;
+  }
+
+  &__grid-box {
+    width: 370px;
+    height: 267px;
+    background: #121212;
+    border-radius: 2px;
+  }
+}

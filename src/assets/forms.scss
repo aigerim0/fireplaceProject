@@ -1,0 +1,215 @@
+.forms {
+  background: #1d1d1c;
+  padding: 94px 0 100px;
+
+  &__title {
+    width: 100%;
+    height: 55px;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-bottom: 68px;
+    background: linear-gradient(235.41deg, #FFFFFF 28.47%, rgba(255, 255, 255, 0.18) 91.88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__img {
+    width: 533px;
+    height: 374px;
+    border-radius: 2px;
+    margin-bottom: 68px;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  &__left-side-dopInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & span {
+      width: 51px;
+      height: 55px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 55px;
+      letter-spacing: 0.135em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 20px;
+    }
+
+    & p {
+      width: 56px;
+      height: 55px;;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 55px;
+      color: #FFFFFF;
+    }
+
+    & svg {
+      margin-top: 4px;
+    }
+  }
+
+  &__right-side {
+    & p {
+      width: 100%;
+      height: 55px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 55px;
+      letter-spacing: 0.135em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    & span {
+      width: 37px;
+      height: 55px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 55px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+
+  }
+
+  &__input-range {
+    -webkit-appearance: none;
+    width: 296px;
+    height: 0;
+    border: 2px solid #FFCF7A;
+    background: -webkit-repeating-linear-gradient(left, #FFCF7A 0%, #FFCF7A 25%, #646464 25%, #646464 100%);
+    margin: 0 30px;
+    outline: none;
+  }
+
+  &__input-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    left: 1092px;
+    top: 6040px;
+
+    background: #FFCF7A;
+    border-radius: 2px;
+  }
+
+  &__labelInput {
+    & input {
+      -webkit-appearance: none;
+      box-sizing: border-box;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #CEB787;
+      border-radius: 2px;
+
+    }
+
+    & input:checked {
+      background: #ECCF94;
+      border-radius: 2px;
+
+    }
+
+  }
+
+  //& input[type='range'] {
+  //  width: 296px;
+  //  height: 0;
+  //  border: 2px solid #FFCF7A;
+  //  margin: 0 30px;
+  //
+  //}
+
+  &__labelInput {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & label {
+      width: 111px;
+      height: 120px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 30px;
+      color: #FFFFFF;
+      //margin-right: 86px;
+    }
+
+  }
+
+  // &__input-range{
+  //   width: 296px;
+  //   height: 0;
+  //border: 2px solid #FFCF7A;
+  //   margin: 0 30px;
+  //
+  // }
+  &__right-price {
+    width: 100%;
+    height: 40px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #FFCF7A;
+  }
+
+  &__right-sideDopInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+  }
+
+  &__save {
+    margin-right: 86px;
+  }
+
+  &__wifi {
+    margin-right: 160px;
+  }
+
+  &__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #121212;
+    padding: 17px 56px;
+    left: 1063px;
+    top: 6476px;
+    border: none;
+    background: #ECCF94;
+    border-radius: 1px;
+
+    &:hover {
+      background: #ecbc5a;
+      transition: 1s;
+    }
+  }
+}

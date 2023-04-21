@@ -1,0 +1,116 @@
+
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+  margin: 0 15px;
+
+}
+
+
+.hero {
+  padding-top: 92px;
+  background: #1d1d1c;
+
+  &__content {
+    display: flex;
+    position: relative;
+  }
+
+
+  &__title {
+    width: 780px;
+    height: 161px;
+    font-weight: 250;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+
+    background: linear-gradient(226.43deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 99.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+  }
+
+  &__price {
+    width: 178px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    margin-bottom: 86px;
+    color: #FFCF7A;
+
+    &-99 {
+      font-size: 35px;
+    }
+  }
+
+  &__left-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 91px;
+  }
+
+  &__right-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 80px;
+  }
+
+  &__icon-text {
+    width: 120px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  &__icon-settings {
+    margin-bottom: 16px;
+  }
+
+  &__icon-airplane {
+    margin-bottom: 20px;
+  }
+
+  .col-6 img {
+    position: absolute;
+    top: 8px;
+    right: 37px;
+    width: 700px;
+    height: 429px;
+
+
+  }
+
+  &__img {
+    height: 500px;
+    position: relative;
+    &::after {
+      content: "";
+      width: 100px;
+      height: 100px;
+      background: url("../img/Group17.png") center/100% 100% no-repeat;
+      position: absolute;
+      bottom: 0;
+      //background: #007aff;
+      right: 0;
+      z-index: 99;
+    }
+  }
+}

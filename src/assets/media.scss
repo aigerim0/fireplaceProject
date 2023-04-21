@@ -1,0 +1,977 @@
+@media (max-width: 1600px) { /* 1201 - 1600*/
+
+}
+/*1025 993 769*/
+
+@media (max-width: 1200px) { /* 1025 - 1200*/
+  .header {
+    &__logo {
+      margin: 0 34px 0 0;
+    }
+  }
+
+  /*Hero*/
+  .hero {
+    .col-6 img {
+      top: 30px;
+      right: 14px;
+      width: 600px;
+      height: 404px;
+    }
+
+    &__title {
+      font-size: 59px;
+      line-height: 72px;
+    }
+  }
+
+  /*Fire*/
+  .fire {
+    &__img img {
+      width: 1008px;
+      height: 415px;
+    }
+    &__grid{
+      gap: 120px;
+    }
+  }
+
+  /*Smart fire place*/
+  .smartFireplace{
+    &__img img{
+
+    }
+  }
+
+  /*Fuel*/
+
+  .fuel{
+    &__row{
+      gap: 35px;
+    }
+    &__box1-img img{
+      width: 475px;
+    }
+    &__box1-description{
+      width: 450px;
+      height: 32px;
+      font-weight: 350;
+      margin-top: 25px;
+    }
+    & svg{
+      width: 370px;
+    }
+    &__svg{
+
+      top: 106px;
+      right: -127px;
+    }
+
+    &__box2-description{
+      width: 466px;
+      height: 236px;
+      line-height: 22px;
+    }
+    &__box3-grid div ul{
+      font-size: 14px;
+    }
+  }
+
+  /*Tasks*/
+  .tasks{
+    &__grid{
+      grid-template-columns: repeat(2,1fr);
+      gap: 30px;
+    }
+    &__grid{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    &__grid-box{
+      width: calc(50% - 20px);
+      padding: 0 15px;
+
+    }
+  }
+
+  /*Forms*/
+  .forms{
+    &__img img{
+      width: 90%;
+    }
+    &__button{
+      padding: 12px 44px;
+      margin-top: 25px;
+    }
+  }
+
+  /*Footer*/
+
+  .footer{
+    &__grid-boxIntro{
+      column-gap: 0;
+    }
+    &__grid-link{
+      font-size: 21px;
+    }
+    &__button {
+      font-size: 16px;
+    }
+  }
+  .line-svg{
+    width: 1025px;
+  }
+}
+
+
+@media (max-width: 1024px) { /* 993 - 1024*/
+
+
+  /*Fire*/
+  .fire {
+    &__img img {
+      width: 970px;
+      height: 415px;
+    }
+
+    &__grid-description {
+      margin-left: 25px;
+    }
+  }
+
+  /*Fuel*/
+
+  .fuel {
+    &__svg {
+
+      top: 107px;
+      right: -144px;
+    }
+  }
+
+  /*Tasks*/
+  .tasks{
+    &__second-title{
+      font-size: 38px;
+    }
+    &__first-title{
+      font-size: 38px;
+    }
+
+    &__grid{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    &__grid-box{
+      width: calc(50% - 20px);
+      padding: 0 15px;
+
+    }
+  }
+  /*Forms*/
+  .forms {
+    &__img img {
+      width: 90%;
+    }
+
+    &__button {
+      padding: 12px 44px;
+      margin-top: 25px;
+    }
+
+    &__save {
+      margin-right: 70px;
+    }
+
+    &__wifi {
+      margin-right: 144px;
+    }
+
+    &__input-range {
+      -webkit-appearance: none;
+      width: 296px;
+      height: 0;
+      border: 2px solid #FFCF7A;
+      background: -webkit-repeating-linear-gradient(left, #FFCF7A 0%, #FFCF7A 25%, #646464 25%, #646464 100%);
+      margin: 0 10px;
+      outline: none;
+
+
+    }
+    &__button {
+      padding: 9px 35px;
+      margin-top: 29px;
+      font-size: 16px;
+  }
+
+}
+
+  /*Footer*/
+
+  .footer{
+    &__grid-boxIntro{
+      column-gap: 0;
+    }
+    &__grid-link{
+      font-size: 21px;
+    }
+    &__button {
+      font-size: 14px;
+      padding: 13px 20px 13px 20px
+  }
+
+    .line-svg{
+width: 992px;
+    }
+}}
+
+@media (max-width: 992px) { /* 769 - 992*/
+  [for=burger]{
+    display: block;
+    position: fixed;
+
+    text-align: center;
+    right: 95px;
+    top: 85px;
+
+  }
+  #burger:checked + label + nav{
+    display: block;
+    animation: show .5s ease;
+  }
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+  .burger__img{
+    width: 50px ;
+    height: 50px;
+  }
+
+ .header{
+   &__right-side{
+     display: none;
+     position: fixed;
+     top: 0;
+     margin-top:30px;
+     background: #FFE2A4;
+     width: 100%;
+     user-select: none;
+
+
+   }
+   &__button{
+width: 50px;
+     height: 50px;
+   }
+
+   &__right-side{
+     width: 80%;
+   }
+ }
+
+  .hero{
+    &__content{
+      //flex-direction: column;
+    }
+    &__title{
+      font-size: 52px;
+      line-height: 59px;
+      width: 650px;
+    }
+    & .col-6 img{
+      top: 52px;
+      right: 3px;
+      width: 386px;
+      height: 363px;
+    }
+  }
+
+  .fire{
+    &__title{
+      font-size: 34px;
+      line-height: 50px;
+    }
+
+    &__description{
+      font-size: 18px;
+      line-height: 29px;
+    }
+    &__img img{
+      width: 726px;
+      height: 400px;
+    }
+    &__grid{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    &__grid-box{
+      width: calc(50% - 20px);
+      padding: 0 15px;
+
+    }
+
+  }
+
+  .refill{
+
+    &__title{
+      font-size: 38px;
+    }
+    &__description{
+      font-size: 16px;
+    }
+    &__top{
+      margin-top: 35px;
+    }
+&__circle1{
+  display: none;
+}
+    &__circle2{
+      display: none;
+    }
+    &__circle3{
+      width: 110px;
+      height: 110px;
+      top: 50px;
+      right: 7px;
+    }
+    &__circle3-text{
+      font-size: 25px;
+      width: 165px;
+      line-height: 11px;
+    }
+    &__circle3-text2{
+      margin-top: 7px;
+      font-size: 12px;
+    }
+    &__img{
+      &::before{
+        display: none;
+      }
+      & img{
+        width: 113%;
+      }
+    }
+  }
+.smartFireplace{
+  &__title{
+    width: 748px;
+  }
+  &__description {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  &__marginSpam{
+    height: 25px;
+  }
+}
+  .fuel{
+    &__row{
+      flex-direction: column;
+      gap: 35px;
+      align-items: center;
+    }
+
+    & svg{
+      width: 382px;
+    }
+    &__svg{
+      right: -186px;
+    }
+
+    &__box3{
+      margin-bottom: 170px;
+    }
+    &__info{
+      font-size: 23px;
+    }
+    &__pro2{
+      width: 66%;
+    }
+  }
+
+  .tasks{
+    &__title{
+      font-size: 36px;
+    }
+    &__second-title{
+      font-size: 36px;
+    }
+  }
+
+  .forms{
+    &__content{
+      display: flex;
+      flex-direction: column;
+
+
+    }
+    &__title{
+      font-size: 38px;
+    }
+  }
+
+  .footer{
+    &__grid{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+    &__dopInfo-grid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__dopInfo-right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__dopInfo-right span{
+      text-align: center;
+      margin: 8px 0;
+    }
+    &__dopInfo-logo{
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) { /* 481 - 768*/
+
+  .hero{
+&__title{
+  font-size: 38px;
+  line-height: 45px;
+  width: 400px;
+  margin-bottom: 0;
+}
+    &__img img{
+      display: none;
+
+    }
+    &__price{
+      margin-bottom: 35px;
+    }
+  }
+
+  .fire{
+    padding-top: 120px;
+    &__title{
+      font-size: 22px;
+      line-height: 38px;
+    }
+    &__description{
+      font-size: 14px;
+      line-height: 19px;
+      margin-top: 10px;
+    }
+    &__img::before{
+      display: none;
+    }
+    &__img{
+      width: 100%;
+      height: 317px;
+    }
+    &__img img{
+      width: 453px;
+      height: 279px;
+    }
+
+    &__grid-description{
+      font-size: 11px;
+      line-height: 18px;
+      margin-top: 4px;
+    }
+  }
+
+  .refill{
+    padding-top:120px ;
+    &__content{
+      flex-direction: column;
+      align-items: start;
+
+    }
+
+    &__title{
+      font-size: 33px;
+      margin-bottom: 16px;
+    }
+    &__description{
+      font-size: 15px;
+    }
+    &__top{
+      margin-top: 23px;
+    }
+    &__img img{
+      width: 300px;
+    }
+    &__circle3{
+      top: 45px;
+      right: -80px;
+    }
+
+  }
+  .smartFireplace {
+    &__content{
+      padding-top: 120px;
+    }
+    &__title {
+      font-size: 20px;
+      width: 459px;
+    }
+
+    &__description {
+      font-size: 14px;
+      line-height: 22px;
+      width: 458px;
+    }
+
+    &__marginSpam{
+      height: 4px;
+    }
+  }
+
+  .fuel {
+    &__col-6 {
+      width: calc(100% - 20px);
+    }
+
+    &__box1-img img {
+      width: 100%;
+    }
+    &__box1-description {
+      width: 100%;
+      margin-bottom: 6px;
+    }
+    & svg {
+      width: 80%;
+    }
+    &__svg {
+      //right: -73px;
+      //top: 112px;
+      display: none;
+    }
+    &__box2-description {
+      width: 100%;
+      margin: 11px 0 15px;
+
+    }
+    &__box2-title{
+      font-size: 23px;
+      line-height: 35px;
+    }
+    &__row{
+      gap: 0;
+    }
+    &__info {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  .tasks{
+
+    &__content{
+      padding-top: 120px;
+    }
+    &__first-title {
+      font-size: 23px;
+      line-height: 35px;
+    }
+    &__second-title {
+      font-size: 23px;
+      line-height: 35px;
+    }
+   &__grid-box {
+     width: calc(100% - 20px);
+   }
+  }
+
+  .forms{
+    &__img {
+width: 100%;
+      & img {
+        width: 100%;
+      }
+
+
+    }
+    &__title {
+      font-size: 26px;
+      line-height: 35px;
+      margin-bottom: 20px;
+    }
+
+
+
+  }
+
+  .footer{
+    padding: 15px 0 66px;
+    &__grid-boxIntro{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title{
+      font-size: 28px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media (max-width: 480px) { /* 320 - 480*/
+  [for=burger] {
+    top: 58px;
+    right: 75px;
+  }
+
+  .header {
+    padding-top: 60px;
+
+    &__span {
+      display: none;
+    }
+
+    &__button {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .hero {
+    padding-top: 55px;
+
+
+    &__title {
+      font-size: 23px;
+      line-height: 35px;
+      width: 268px;
+      height: 95px;
+    }
+
+    &__price-99 {
+      font-size: 28px;
+    }
+
+    &__icons {
+      gap: 29px;
+    }
+
+    &__icons-text {
+      line-height: 19px;
+    }
+  }
+
+  .fire {
+    &__title {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &__description {
+      font-size: 10px;
+      line-height: 12px;
+      margin-top: 4px;
+    }
+
+    &__img {
+      width: 100%;
+      height: 185px;
+
+      & img {
+        width: 290px;
+        height: 150px;
+      }
+    }
+
+    &__grid {
+      flex-direction: column;
+
+      &-box {
+        width: 100%;
+
+        & svg {
+          width: 31px;
+          height: 41px;
+        }
+      }
+    }
+
+  }
+  .refill {
+    padding-top: 65px;
+
+    &__title {
+      font-size: 26px;
+      margin-bottom: 0;
+    }
+
+    &__description {
+      font-size: 11px;
+      line-height: 15px;
+      width: 253px;
+    }
+
+    &__top {
+      margin-top: 15px;
+    }
+
+    &__img img {
+      display: none;
+    }
+
+    &__circle3 {
+      display: none;
+    }
+
+    &__dop-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__dopInfo-text {
+      height: 33px;
+      font-size: 13px;
+    }
+  }
+
+  .smartFireplace {
+
+    &__content {
+      padding-top: 60px;
+
+      & svg {
+        display: none;
+      }
+    }
+
+    &__title {
+      font-size: 16px;
+      width: 295px;
+    }
+
+    &__description {
+      font-size: 10px;
+      line-height: 12px;
+      width: 300px;
+      height: 35px;
+    }
+
+    &__marginSpam {
+      height: 0;
+    }
+  }
+
+  .fuel {
+    &__box1-title {
+      width: 165px;
+      height: 13px;
+      font-size: 22px;
+    }
+
+    &__box1-description {
+      width: 100%;
+      height: 36px;
+      font-size: 11px;
+      line-height: 16px;
+    }
+
+    & svg {
+      display: none;
+    }
+
+    &__box1-img img {
+      height: 100px;
+    }
+
+    &__box2-title {
+      font-size: 14px;
+      line-height: 20px;
+      height: 45px;
+      width: 216px;
+    }
+
+    &__box2-description {
+      width: 250px;
+      height: 204px;
+      line-height: 15px;
+      font-size: 10px;
+      margin: 11px 0 0;
+    }
+
+    &__box3-gridTitle1 {
+      font-size: 16px;
+    }
+
+    &__box3-grid {
+      & div {
+        & ul {
+          font-size: 11px;
+          line-height: 21px;
+        }
+      }
+
+    }
+
+    &__box3-gridTitle2 {
+      height: 40px;
+      font-size: 16px;
+      line-height: 23px;
+      margin-top: 30px;
+    }
+
+    &__col-6 {
+      width: 100%;
+    }
+
+    &__box5-title {
+      width: 100%;
+      height: 25px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 15px;
+      margin-top: 60px;
+    }
+
+    &__box5-description {
+      height: 44px;
+      font-size: 11px;
+      line-height: 13px;
+      margin: 5px 0 5px;
+    }
+
+    &__box6-description {
+      height: 44px;
+      font-size: 11px;
+      line-height: 13px;
+      margin: 5px 0 5px;
+      width: 277px;
+    }
+
+    &__box5-description {
+      height: 44px;
+      font-size: 11px;
+      line-height: 12px;
+      margin: 5px 0 5px;
+    }
+
+    &__info {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 60px 0 19px 0;
+    }
+
+    &__button {
+      font-size: 14px;
+      line-height: 28px;
+
+      &::after {
+        width: 115px;
+        height: 111px;
+      }
+
+      &::before {
+        width: 142px;
+        height: 105px;
+      }
+    }
+  }
+
+  .tasks {
+    &__first-title {
+      font-size: 14px;
+      line-height: 17px;
+      height: 20px;
+      margin-bottom: 23px;
+    }
+
+    &__second-title {
+      font-size: 14px;
+      line-height: 20px;
+      height: 56px;
+      margin: 55px 0 35px;
+    }
+  }
+
+  .forms {
+    &__title {
+      font-size: 20px;
+      line-height: 22px;
+      margin-bottom: 6px;
+    }
+
+    &__img {
+      width: 100%;
+      height: 170px;
+    }
+
+    &__input-range {
+      width: 214px;
+    }
+
+    &__right-side {
+      & span {
+        font-size: 9px;
+      }
+    }
+
+    &__swiper {
+      & img {
+        width: 100%;
+      }
+    }
+
+    &__labelInput {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__right-sideDopInfo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__grid-link {
+      width: 100%;
+    }
+  }
+  .footer {
+    &__grid-link {
+      font-size: 18px;
+      width: 100%;
+      height: 45px;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 19px;
+      margin: 35px 0 0;
+
+    }
+    &__phone {
+      font-size: 31px;
+      line-height: 19px;
+      margin-bottom: 50px;
+    }
+    &__phone-text{
+margin-top: 10px;
+    }
+  }
+}

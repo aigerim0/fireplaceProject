@@ -1,0 +1,45 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Lab Grotesque", sans-serif;
+  background: #121212;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#burger, [for=burger]{
+  display: none;
+}
+
+
+.container{
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "hero";
+@import "fire";
+@import "refill";
+@import "smartFireplace";
+@import "fuel";
+@import "tasks";
+@import "forms";
+@import "footer";
+@import "media";
+
+
+
+
