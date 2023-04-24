@@ -200,42 +200,27 @@
     color: #FFFFFF;
   }
 
-  &__button {
+
+  &__button{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
     color: #121212;
-
-    border-radius: 2px;
+    padding: 17px 56px;
+    left: 1063px;
+    top: 6476px;
     border: none;
-    padding: 15px 64px;
-position: relative;
-    &::after{
-      content: '';
-      position: absolute;
-      width: 184px;
-      height: 124px;
-      left: 139px;
-      top: -29px;
-z-index: 1;
-      background: linear-gradient(270.21deg, rgba(255, 217, 196, 0.8) 18.08%, rgba(255, 255, 255, 0.8) 68.72%);
-      filter: blur(25px);
-      transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-    &::before{
-      content: '';
-      position: absolute;
-      width: 184px;
-      height: 124px;
-      left: -2px;
-      top: -17px;
-z-index: 1;
-      background: linear-gradient(270.21deg, rgba(249, 139, 77, 0.8) 18.08%, rgba(255, 103, 82, 0.8) 68.72%);
-      filter: blur(25px);
+    background: #ECCF94;
+    border-radius: 1px;
+
+    &:hover {
+      background: #ecbc5a;
+      transition: 1s;
     }
   }
+
 
   &__box1 {
     position: relative;

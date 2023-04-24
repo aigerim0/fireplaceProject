@@ -723,36 +723,17 @@ a {
   line-height: 30px;
   text-align: center;
   color: #121212;
-  border-radius: 2px;
+  padding: 17px 56px;
+  left: 1063px;
+  top: 6476px;
   border: none;
-  padding: 15px 64px;
-  position: relative;
+  background: #ECCF94;
+  border-radius: 1px;
 }
-.fuel__button::after {
-  content: "";
-  position: absolute;
-  width: 184px;
-  height: 124px;
-  left: 139px;
-  top: -29px;
-  z-index: 1;
-  background: linear-gradient(270.21deg, rgba(255, 217, 196, 0.8) 18.08%, rgba(255, 255, 255, 0.8) 68.72%);
-  -webkit-filter: blur(25px);
-          filter: blur(25px);
-  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-.fuel__button::before {
-  content: "";
-  position: absolute;
-  width: 184px;
-  height: 124px;
-  left: -2px;
-  top: -17px;
-  z-index: 1;
-  background: linear-gradient(270.21deg, rgba(249, 139, 77, 0.8) 18.08%, rgba(255, 103, 82, 0.8) 68.72%);
-  -webkit-filter: blur(25px);
-          filter: blur(25px);
+.fuel__button:hover {
+  background: #ecbc5a;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 .fuel__box1 {
   position: relative;
@@ -1177,7 +1158,7 @@ a {
   }
   /*Fire*/
   .fire__img img {
-    width: 1008px;
+    width: 100%;
     height: 415px;
   }
   .fire__grid {
@@ -1260,7 +1241,7 @@ a {
 @media (max-width: 1024px) { /* 993 - 1024*/
   /*Fire*/
   .fire__img img {
-    width: 970px;
+    width: 100%;
     height: 415px;
   }
   .fire__grid-description {
@@ -1410,7 +1391,7 @@ a {
     line-height: 29px;
   }
   .fire__img img {
-    width: 726px;
+    width: 100%;
     height: 400px;
   }
   .fire__grid {
@@ -1594,7 +1575,7 @@ a {
     height: 317px;
   }
   .fire__img img {
-    width: 453px;
+    width: 100%;
     height: 279px;
   }
   .fire__grid-description {
@@ -1766,7 +1747,7 @@ a {
     height: 185px;
   }
   .fire__img img {
-    width: 290px;
+    width: 100%;
     height: 150px;
   }
   .fire__grid {
